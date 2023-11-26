@@ -1,0 +1,127 @@
+body {
+    font-family: 'Your Chosen Font', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #00a8c5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color: white; */
+  }
+  
+  .logoText {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .logoStyle {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #search-form {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  #search-button {
+    padding: 10px;
+    /* background-color: #3498db; */
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 0 5px 5px 0;
+    width: 45px;
+    height: 33px;
+    cursor: pointer;
+    background-image: url(./assets/navbar/mic\ icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 17px;
+  }
+/*   
+  #search-button:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+  } */
+  
+  .rightButtons button {
+    margin-left: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius:4px;
+    cursor: pointer;
+  }
+  
+  .slider {
+    overflow: hidden;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .navigation {
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+  }
+
+  .dot:hover {
+    background-color: none;
+    border: 1px solid whitesmoke;
+  }
+
+  .active {
+    background-color: #ebebeb;
+  }
+  
+  .hero{
+    display: flex;
+    justify-content: center;
+}
+
+.hero img{
+    margin-top: 40px;
+    width: 70%;
+}
+
